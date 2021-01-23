@@ -58,17 +58,19 @@ a:visited {
     border-bottom: 1px solid rgba(49, 118, 224, 0.5);
     transition: height .2s;
     overflow: hidden;
-
 }
 .compressed-list li:hover {
     height: 100px;
 }
 .compressed-list li:hover > p {
     font-weight: bold;
-
 }
 .compressed-list p {
-padding: 8px 0px;
+    padding: 8px 0px;
+    margin-bottom: 7px;
+}
+.compressed-list .compressed-list-2-rows {
+    height: 60px;
 }
 .compressed-list .expanded-list-120px:hover {
     height: 120px;
@@ -98,7 +100,7 @@ header {
 .profile-photo {
     display: block;
     width: 70%;
-    margin: 10px auto;
+    margin: 30px auto;
     border-radius: 50%;
 }
 .name {
@@ -113,20 +115,22 @@ header {
     text-align: center;
 }
 .description {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     padding: 0px 10px;
     font-weight: 300;
     text-align: center;
 }
 
 /*HABILIDADES*/
+/*---*/
 
 /*ESTUDIOS*/
+/*---*/
 
 /*EXPERIENCIA*/
+/*---*/
 
 /*IDIOMAS*/
-
 .idiomas__list {
     display: flex;
 }
