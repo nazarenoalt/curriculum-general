@@ -1,0 +1,182 @@
+/*
+1-Display, position, tamaño
+2-margin, padding, fonts
+3-border, color, styles
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    --white: rgb(240, 240, 240);
+    --blue: rgb(49 118 224);
+    list-style: none;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+/*Diseños Especiales*/
+.subtitle {
+    margin: 40px 0px 15px;
+    
+    text-align: center;
+    font-size: 2.2em;
+    
+}
+.card {
+    display: inline-block;
+    padding: 6px;
+    margin: 5px;
+    border-radius: 5px;
+    background: var(--blue);
+    color: white;
+}
+.card-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    justify-content: center;
+}
+/*BODY*/
+body {
+    width: 100vw;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(49 118 224);
+    color: var(--white);
+}
+.profile-photo {
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+.name {
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    text-align: center;
+}
+.profession {
+    margin-bottom: 20px;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+}
+.description {
+    margin-bottom: 15px;
+    padding: 0px 10px;
+    font-weight: 300;
+}
+
+/*HABILIDADES*/
+
+/*ESTUDIOS*/
+
+.estudios__list li {
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid rgba(49, 118, 224, 0.5);
+    transition: height .2s;
+    overflow: hidden;
+
+}
+.estudios__list li:hover {
+    height: 100px;
+}
+.estudios__list li:hover > p {
+    font-weight: bold;
+
+}
+.estudios__list p {
+padding: 8px 0px;
+}
+
+/*IDIOMAS*/
+
+.idiomas__list {
+    display: flex;
+}
+.idiomas__list li {
+    width: 60%;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    transition: height .2s;
+    overflow: hidden;
+}
+
+/*FOOTER*/
+footer {
+    margin-top: 15px;
+    padding-top: 1px;
+    padding-bottom: 30px;
+    background: var(--blue);
+    color: var(--white);
+    
+}
+/*DATOS PERSONALES*/
+.datos-personales__list {
+    padding: 10px;
+    text-align: center;
+}
+.datos-personales__list li{
+    width: 70%;
+    border-bottom: 1px solid var(--white);
+    margin: 0 auto;
+}
+.datos-personales__list p {
+    margin: 10px;
+    font-size: 1.3em;
+}
+.datos-personales__list span {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/*REDES Y PORTAFOLIOS*/
+.redes-portafolios__list {
+text-align: center;
+}
+.redes-portafolios__list li {
+    height: 80px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: height .2s;
+}
+.redes-portafolios__list li:hover {
+    height: 120px;
+}
+.redes-portafolios__list a {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+}
+.redes-portafolios__list span {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.footer__leyenda {
+    text-align: center;
+    padding: 10px;
+    margin-top: 80px;
+}
+.leyenda__descripcion {
+    font-size: 0.8em;
+}
+.leyenda__username {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
