@@ -1,0 +1,54 @@
+/*DISEÑOS ESPECIALES*/
+.subtitle span {
+    display: inline;
+}
+/*HEADER*/
+.profile-photo {
+    width: 30%;
+}
+.name {
+    font-size: 2.5em;
+}
+.profession {
+    font-size: 1.2em;
+}
+.description {
+    font-size: 1.3em;
+    padding: 20px 35px;
+}
+#subtitle__habs-blandas {
+    display: block;
+}
+.soft-tag-box .lista{
+    display: inline-block;
+}
+.soft-tag.button {
+   display: none;
+}
+
+/*MAIN*/
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*HABILIDADES*/
+.habilidades {
+    display: flex;
+}
+
+/*LISTAS COMPRIMIDAS - ESTUDIOS - EXPERIENCIA*/
+
+.tablet-query-section {
+    display: inline-block;
+    width: 49%;
+    padding-bottom: 50px
+}
+
+
+/*DATOS PERSONALES*/
+.datos-personales__list p {
+    font-size: 1.5em;
+}
+.datos-personales__list span {
+    font-size: 1.2em;
+}

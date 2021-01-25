@@ -28,10 +28,14 @@ a:visited {
 /*DISEÑOS ESPECIALES*/
 .subtitle {
     margin: 40px 0px 15px;
-    
     text-align: center;
     font-size: 2.2em;
-    
+}
+.subtitle span {
+    display: none;
+}
+#subtitle__habs-blandas {
+    display: none;
 }
 /*Tags*/
 .tag {
@@ -45,10 +49,32 @@ a:visited {
 .tag-box {
     display: flex;
     flex-wrap: wrap;
-    flex-shrink: 0;
     justify-content: center;
 }
+.soft-tag {
+    display: inline-block;
+    padding: 6px;
+    margin: 5px;
+    border-radius: 5px;
+    background: rgba(49, 118, 224, 0.5);
+    color: white;
+}
 
+.soft-tag-box .lista{
+    display: none;
+}
+.soft-tag.button {
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+.soft-tag.button:hover ~ .lista{
+    display: inline-block;
+}
+.soft-tag.button:hover {
+    position: absolute;
+    top: -1000px;
+}
 /*Listas comprimidas*/
 .compressed-list li {
     width: 80%;
@@ -92,8 +118,10 @@ body {
 
 /*HEADER*/
 header {
+    width: 100vw;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     background-color: rgb(49 118 224);
     color: var(--white);
 }
@@ -102,6 +130,7 @@ header {
     width: 70%;
     margin: 30px auto;
     border-radius: 50%;
+    overflow: hidden;
 }
 .name {
     margin-bottom: 10px;
@@ -142,6 +171,9 @@ header {
     transition: height .2s;
     overflow: hidden;
 }
+.idiomas__list span{
+    font-size: 1.2em;
+}
 
 /*FOOTER*/
 footer {
@@ -173,8 +205,10 @@ footer {
 
 /*REDES Y PORTAFOLIOS*/
 .redes-portafolios__list {
-text-align: center;
-margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
 }
 .redes-portafolios__list li {
     height: 80px;
@@ -194,6 +228,7 @@ margin-top: 50px;
     display: inline-block;
     margin-top: 10px;
     font-size: 1.2em;
+    word-wrap:break-word;
 }
 
 .footer__leyenda {
