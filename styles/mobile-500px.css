@@ -25,17 +25,18 @@ header {
     padding: 0px 20px;
 }
 /*REDES Y PORTAFOLIOS*/
-.redes-portafolios__list {
+.redes-portafolio__list {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
 }
-.redes-portafolios__list li {
+.redes-portafolio__list li {
     width: 25%;
     margin-bottom: 50px;
 }
-.redes-portafolios__list li:hover {
+
+.redes-portafolio__list div:hover {
     height: 140px;
 }
 .datos-personales__list p {

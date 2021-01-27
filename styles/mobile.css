@@ -68,10 +68,10 @@ a:visited {
     outline: none;
     font-size: 1em;
 }
-.soft-tag.button:hover ~ .lista{
+.soft-tag.button:focus ~ .lista{
     display: inline-block;
 }
-.soft-tag.button:hover {
+.soft-tag.button:focus {
     position: absolute;
     top: -1000px;
 }
@@ -177,6 +177,8 @@ header {
 
 /*FOOTER*/
 footer {
+    display: flex;
+    flex-direction: column;
     margin-top: 15px;
     padding-top: 1px;
     padding-bottom: 30px;
@@ -204,27 +206,30 @@ footer {
 }
 
 /*REDES Y PORTAFOLIOS*/
-.redes-portafolios__list {
+.redes-portafolio__list {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin-top: 50px;
 }
-.redes-portafolios__list li {
+.redes-portafolio__list li {
+    margin-bottom: 30px;
+
+}
+.redes-portafolio__list div {
     height: 80px;
     overflow: hidden;
-    margin-bottom: 30px;
     transition: height .2s;
 }
-.redes-portafolios__list li:hover {
+.redes-portafolio__list div:hover {
     height: 120px;
 }
-.redes-portafolios__list a {
+.redes-portafolio__list a {
     display: block;
     margin: 0 auto;
     width: 80px;
 }
-.redes-portafolios__list span {
+.redes-portafolio__list span {
     display: inline-block;
     margin-top: 10px;
     font-size: 1.2em;
@@ -234,6 +239,7 @@ footer {
 .footer__leyenda {
     text-align: center;
     padding: 10px;
+    margin: 0 auto;
     margin-top: 20px;
 }
 .leyenda__descripcion {

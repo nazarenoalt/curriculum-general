@@ -52,3 +52,24 @@ main {
 .datos-personales__list span {
     font-size: 1.2em;
 }
+
+/*FOOTER*/
+footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*DATOS PERSONALES*/
+.datos-personales {
+    width: 50%;
+}
+.redes-portafolio {
+    width: 50%;
+}
+.redes-portafolio__list li {
+    width: 50%;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+
