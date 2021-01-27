@@ -14,201 +14,203 @@
     <link rel="stylesheet" href="styles/mobile-500px.css" media="screen and (min-width: 500px)">
     <link rel="stylesheet" href="styles/tablet.css" media="screen and (min-width: 768px)">
     <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 1024px)">
-
+    <link rel="stylesheet" href="styles/desktop-1250px.css" media="screen and (min-width: 1250px)">
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <figure class="profile-photo">
-            <img src="assets/images/profile.jpg"  alt="">
-        </figure>
-        <div class="profile-user-container">
-            <h1 class="name">Nazareno Aznar Altamiranda</h1>
-            <h3 class="profession">Estudiante en Frontend Development</h3>
-        </div>
-        <p class="description">En constante aprendizaje, ductil y enfocado en las nuevas tecnologías. Con bases prácticas de diseño gráfico y marketing digital. Habil para comunicarme con mi equipo y con mis clientes.</p>
-    </header>
-    <main>
-        <!--Habilidades-->
-        <section class="habilidades">
-            <div class="habilidades__sub-habs tablet-query-section">
-            <h2 class="subtitle">Habilidades <span>Duras</span></h2>
-                <ul class="habilidades__list tag-box">
-                    <li>
-                        <span class="tag">Diseño gráfico</span>
-                    </li>
-                    <li>
-                        <span class="tag">HTML y CSS</span>
-                    </li>
-                    <li>
-                        <span class="tag">Javascript</span>
-                    </li>
-                    <li>
-                        <span class="tag">Finanzas e Inversiones</span>
-                    </li>
-                    <li>
-                        <span class="tag">Git & GitHub</span>
-                    </li>
-             </div>
+    <section class="container">
+        <header>
+            <figure class="profile-photo">
+                <img src="assets/images/profile.jpg"  alt="">
+            </figure>
+            <div class="profile-user-container">
+                <h1 class="name">Nazareno Aznar Altamiranda</h1>
+                <h3 class="profession">Estudiante en Frontend Development</h3>
+            </div>
+            <p class="description">En constante aprendizaje, ductil y enfocado en las nuevas tecnologías. Con bases prácticas de diseño gráfico y marketing digital. Habil para comunicarme con mi equipo y con mis clientes.</p>
+        </header>
+        <main>
+            <!--Habilidades-->
+            <section class="habilidades">
                 <div class="habilidades__sub-habs tablet-query-section">
-                <h2 class="subtitle" id="subtitle__habs-blandas">Habilidades Blandas</h2>
-                <ul class="tag-box soft-tag-box">
-                    <input type="button" class="soft-tag button" value="mostrar habilidades blandas">
-                    
-                    <li class="lista">
-                        <span class="soft-tag">Comunicación</span>
+                <h2 class="subtitle">Habilidades <span>Duras</span></h2>
+                    <ul class="habilidades__list tag-box">
+                        <li>
+                            <span class="tag">Diseño gráfico</span>
+                        </li>
+                        <li>
+                            <span class="tag">HTML y CSS</span>
+                        </li>
+                        <li>
+                            <span class="tag">Javascript</span>
+                        </li>
+                        <li>
+                            <span class="tag">Finanzas e Inversiones</span>
+                        </li>
+                        <li>
+                            <span class="tag">Git & GitHub</span>
+                        </li>
+                </div>
+                    <div class="habilidades__sub-habs tablet-query-section">
+                    <h2 class="subtitle" id="subtitle__habs-blandas">Habilidades Blandas</h2>
+                    <ul class="tag-box soft-tag-box">
+                        <input type="button" class="soft-tag button" value="mostrar habilidades blandas">
+                        
+                        <li class="lista">
+                            <span class="soft-tag">Comunicación</span>
+                        </li>
+                        <li class="lista">
+                            <span class="soft-tag">Oratoria</span>
+                        </li>
+                        <li class="lista">
+                            <span class="soft-tag">Principios de Marketing</span>
+                        </li>
+                    </ul>
+                </ul>
+                </div>
+                
+            </section>
+            
+            <!--Estudios-->
+            <section class="estudios  compressed-section tablet-query-section">
+                <h2 class="subtitle">Estudios</h2>
+
+                <ul class="compressed-list">
+                    <li>
+                        <p>Nivel secundario</p>
+                        <span>UEP nº82 - Hogar de Bethania</span>
                     </li>
-                    <li class="lista">
-                        <span class="soft-tag">Oratoria</span>
+                    <li>
+                        <p>Desarrollo web</p>
+                        <span>Escuela de Desarrollo Web / Escuela de Javascript en Platzi <a href="https://platzi.com/p/nazarenoalt/" target="_blank">(ver perfil)</a></span>
                     </li>
-                    <li class="lista">
-                        <span class="soft-tag">Principios de Marketing</span>
+                    <li>
+                        <p>Ingles</p>
+                        <span> Escuela de Ingles en Platzi <a href="https://platzi.com/p/nazarenoalt/" target="_blank">(ver perfil)</a></span>
                     </li>
                 </ul>
-            </ul>
-            </div>
+            </section>
             
-        </section>
+            <!--Experiencia-->
+            <section class="experiencia compressed-section tablet-query-section">
+                <h2 class="subtitle">Experiencia</h2>
+
+                <ul class="compressed-list">
+                    <li class="expanded-list-130px">
+                        <p>Diseñador Gráfico - EsLib / Uni2</p>
+                        <span>
+                            Colaboré como diseñador gráfico para la fundación Estudiantes por la libertad (Cordoba) y el partido uni2<br>
+                            <a href="#" target="_blank">(ver diseños)</a>
+                        </span>
+                    </li>
+                    <li class="compressed-list-2-rows expanded-list-200px">
+                        <p>Profesor de Violonchelo - Fundación Pradier</p>
+                        <span>
+                            Durante dos años me encargué de instruir a más de 60 niños y adolescentes, principalmente en violonchelo, pero también en violin y canto como asistente y suplente
+                            <br>
+                            <a href="http://www.fundacionpradier.org/2016/index.php" target="_blank">(Página de la fundación)</a>
+                        </span>
+                    </li>
+                </ul>
+            </section>
+            <!--Idiomas-->
+            <section class="idiomas tablet-query-section">
+                <h2 class="subtitle">Idiomas</h2>
+                <ul class="idiomas__list">
+                    <li>
+                        <span><strong>Ingles:</strong> B1 (Nivel medio)</span>
+                    </li>
+                </ul>
+            </section>
+            <!--Hobbies-->
+            <section class="hobbies tablet-query-section">
+                <h2 class="subtitle">Hobbies</h2>
+                <ul class="hobbies__list tag-box">
+                    <li>
+                        <span class="tag">Violonchelo</span>
+                    </li>
+                    <li>
+                        <span class="tag">Running</span>
+                    </li>
+                    <li>
+                        <span class="tag">Ejercicios de Fuerza</span>
+                    </li>
+                    <li>
+                        <span class="tag">Lectura</span>
+                    </li>
+                    <li>
+                        <span class="tag">Cocina</span>
+                    </li>
+                    <li>
+                        <span class="tag">Economía y Política</span>
+                    </li>
+                    <li>
+                        <span class="tag">Desarrollo Personal</span>
+                    </li>
+                    <li>
+                        <span class="tag">Podcasts (escucha)</span>
+                    </li>
+                </ul>
+            </section>
+        </main>
         
-        <!--Estudios-->
-        <section class="estudios  compressed-section tablet-query-section">
-            <h2 class="subtitle">Estudios</h2>
+        <!--Footer-->
+        <footer>
+            <section class="datos-personales">
+                <h2 class="subtitle footer-subtitle">Datos Personales</h2>
+                <ul class="datos-personales__list">
+                    <li>
+                        <p><strong>Celular: </strong></p>
+                        <span>(+54) 0364-4724359</span>
+                    </li>
+                    <li>
+                    <p><strong>Email: </strong></p>
+                    <span>nazalt256@gmail.com</span>
+                    </li>
+                    <li>
+                        <p><strong>Dirección:</strong></p>
+                        <span>Balcarce 470 (Nueva Cordoba)</span>
+                    </li>
+                </ul>
+            </section>
 
-            <ul class="compressed-list">
-                <li>
-                    <p>Nivel secundario</p>
-                    <span>UEP nº82 - Hogar de Bethania</span>
-                </li>
-                <li>
-                    <p>Desarrollo web</p>
-                    <span>Escuela de Desarrollo Web / Escuela de Javascript en Platzi <a href="https://platzi.com/p/nazarenoalt/" target="_blank">(ver perfil)</a></span>
-                </li>
-                <li>
-                    <p>Ingles</p>
-                    <span> Escuela de Ingles en Platzi <a href="https://platzi.com/p/nazarenoalt/" target="_blank">(ver perfil)</a></span>
-                </li>
-            </ul>
-        </section>
-        
-        <!--Experiencia-->
-        <section class="experiencia compressed-section tablet-query-section">
-            <h2 class="subtitle">Experiencia</h2>
-
-            <ul class="compressed-list">
-                <li class="expanded-list-130px">
-                    <p>Diseñador Gráfico - EsLib / Uni2</p>
-                    <span>
-                        Colaboré como diseñador gráfico para la fundación Estudiantes por la libertad (Cordoba) y el partido uni2<br>
-                        <a href="#" target="_blank">(ver diseños)</a>
-                    </span>
-                </li>
-                <li class="compressed-list-2-rows expanded-list-200px">
-                    <p>Profesor de Violonchelo - Fundación Pradier</p>
-                    <span>
-                        Durante dos años me encargué de instruir a más de 60 niños y adolescentes, principalmente en violonchelo, pero también en violin y canto como asistente y suplente
-                        <br>
-                        <a href="http://www.fundacionpradier.org/2016/index.php" target="_blank">(Página de la fundación)</a>
-                    </span>
-                </li>
-            </ul>
-        </section>
-        <!--Idiomas-->
-        <section class="idiomas tablet-query-section">
-            <h2 class="subtitle">Idiomas</h2>
-            <ul class="idiomas__list">
-                <li>
-                    <span><strong>Ingles:</strong> B1 (Nivel medio)</span>
-                </li>
-            </ul>
-        </section>
-        <!--Hobbies-->
-        <section class="hobbies tablet-query-section">
-            <h2 class="subtitle">Hobbies</h2>
-            <ul class="hobbies__list tag-box">
-                <li>
-                    <span class="tag">Violonchelo</span>
-                </li>
-                <li>
-                    <span class="tag">Running</span>
-                </li>
-                <li>
-                    <span class="tag">Ejercicios de Fuerza</span>
-                </li>
-                <li>
-                    <span class="tag">Lectura</span>
-                </li>
-                <li>
-                    <span class="tag">Cocina</span>
-                </li>
-                <li>
-                    <span class="tag">Economía y Política</span>
-                </li>
-                <li>
-                    <span class="tag">Desarrollo Personal</span>
-                </li>
-                <li>
-                    <span class="tag">Podcasts (escucha)</span>
-                </li>
-            </ul>
-        </section>
-    </main>
-    
-    <!--Footer-->
-    <footer>
-        <section class="datos-personales">
-            <h2 class="subtitle">Datos Personales</h2>
-            <ul class="datos-personales__list">
-                <li>
-                    <p><strong>Celular: </strong></p>
-                    <span>(+54) 0364-4724359</span>
-                </li>
-                <li>
-                   <p><strong>Email: </strong></p>
-                   <span>nazalt256@gmail.com</span>
-                </li>
-                <li>
-                    <p><strong>Dirección:</strong></p>
-                    <span>Balcarce 470 (Nueva Cordoba)</span>
-                </li>
-            </ul>
-        </section>
-
-        <section class="redes-portafolio">
-            <h2 class="subtitle">Redes y Portafolio</h2>
-            <ul class="redes-portafolio__list">
-                <li>
-                    <div>
-                        <a href="https://github.com/nazarenoalt/" target="_blank"><img src="assets/icons/github.png" alt="github"> </a>
-                        <span>Repositorio en Github</span>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a href="https://www.linkedin.com/in/nazareno-aznar-177582204/" target="_blank"><img src="assets/icons/linkedin.png" alt="linkedin"></a>
-                        <span>Perfil enLinkedin</span>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a href="https://www.instagram.com/nazarenoalt/" target="_blank"><img src="assets/icons/instagram.png" alt="instagram"></a>
-                        <span>Instagram Personal</span>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a href="https://platzi.com/p/nazarenoalt/" target="_blank"><img src="assets/icons/platzi.png" alt="platzi"></a>
-                        <span>Perfil en Platzi</span>
-                    </div>
-                </li>
-            </ul>
-        </section>
-        <section class="footer__leyenda">
-            <p class="leyenda__descripcion">Curriculum <b>responsive</b> hecho 100% en <b>HTML y CSS</b>, podés encontrar el código abierto en mi repositorio de Github!</p>
-            <p class="leyenda__username"><strong>@nazarenoalt</strong></p>
-        </section>
-    </footer>
+            <section class="redes-portafolio">
+                <h2 class="subtitle footer-subtitle">Redes y Portafolio</h2>
+                <ul class="redes-portafolio__list">
+                    <li>
+                        <div>
+                            <a class="github" href="https://github.com/nazarenoalt/" target="_blank"><img src="assets/icons/github.png" alt="github"> </a>
+                            <span>Repositorio en Github</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a class="linkedin" href="https://www.linkedin.com/in/nazareno-aznar-177582204/" target="_blank"><img src="assets/icons/linkedin.png" alt="linkedin"></a>
+                            <span>Perfil en Linkedin</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a  class="instagram" href="https://www.instagram.com/nazarenoalt/" target="_blank"><img src="assets/icons/instagram.png" alt="instagram"></a>
+                            <span>Instagram Personal</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a  class="platzi" href="https://platzi.com/p/nazarenoalt/" target="_blank"><img src="assets/icons/platzi.png" alt="platzi"></a>
+                            <span>Perfil en Platzi</span>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="footer__leyenda">
+                <p class="leyenda__descripcion">Curriculum <b>responsive</b> hecho 100% en <b>HTML y CSS</b>, podés encontrar el código abierto en mi repositorio de Github!</p>
+                <p class="leyenda__username"><strong>@nazarenoalt</strong></p>
+            </section>
+        </footer>
+    </section>
 </body>
 </html>

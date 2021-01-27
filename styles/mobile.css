@@ -1,9 +1,3 @@
-/*
-1-Display, position, tamaño
-2-margin, padding, fonts
-3-border, color, styles
-*/
-
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +5,9 @@
     font-family: 'Lato', sans-serif;
     --white: rgb(240, 240, 240);
     --blue: rgb(49 118 224);
+    --soft-blue: rgba(49, 118, 224, 0.5);
+    --mid-soft-blue: rgba(49, 118, 224, 0.7);
+    --black: rgb(20, 20, 20);
     list-style: none;
     text-decoration: none;
 }

@@ -1,0 +1,128 @@
+/*BODY*/
+.container {
+ display: flex;   
+ flex-direction: row-reverse;
+
+}
+/*HEADER*/
+
+header{
+    background: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(100% - 300px);
+}
+.profile-photo {
+    position: absolute;
+    width: 220px;
+    margin: 0px;
+    top: 10px;
+    left: -300px;
+    margin-left: calc(150px - 110px);
+    z-index: 20;
+    
+}
+.profile-user-container {
+    background: var(--soft-blue);
+    height: 120px;
+    width: 100vw;
+    margin-top: 60px;
+    z-index: 10;
+
+}
+.name {
+    width: 60%;
+    text-align: right;
+    color:var(--black);
+}
+.profession {
+    text-align: right;
+    width: 42%;
+    color:var(--black);
+
+}
+.description {
+    color: var(--black);;
+    width: 50%;
+    margin: 0 auto;
+}
+/**/
+/**/
+/**/
+/**/
+/*FOOTER*/
+footer {
+    position: relative;
+    z-index: 0;
+    width: 300px;
+    margin: 0;
+    padding-top: 200px;
+    flex-direction: column;
+}
+.subtitle.footer-subtitle {
+    font-size: 1.2em;
+}
+.datos-personales, .redes-portafolio {
+    width: 100%;
+}
+.redes-portafolio__list {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.datos-personales__list li p, .datos-personales__list li span{
+    font-size: 1em;
+}
+.redes-portafolio__list a {
+    display: inline-block;
+    width: 30px;
+    margin-right: 10px;
+}
+.redes-portafolio__list a:hover {
+    opacity: 80%;
+}
+.redes-portafolio__list a::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+.redes-portafolio__list li {
+    height: 30px;
+}
+.redes-portafolio__list div {
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    text-align: left;
+}
+.redes-portafolio__list div:hover {
+    height: 100%;
+}
+.redes-portafolio__list span{
+    visibility: hidden;
+}
+/*::After de cada una de las redes*/
+.redes-portafolio__list .github::after {
+    content: "Github"
+}
+.redes-portafolio__list .linkedin::after {
+    content: "Linkedin"
+}
+.redes-portafolio__list .instagram::after {
+    content: "Instagram"
+}
+.redes-portafolio__list .platzi::after {
+    content: "Platzi"
+}
+.footer__leyenda {
+    width: 100%
+}
