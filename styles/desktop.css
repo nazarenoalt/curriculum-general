@@ -1,9 +1,31 @@
 /*BODY*/
 .container {
- display: flex;   
- flex-direction: row-reverse;
+    position: relative;
+    display: flex;   
+    flex-direction: row-reverse;
+    width: 1000px;
+    margin: 50px auto;
+    background-color: white;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.1);
 
 }
+body {
+    background: var(--white);
+}
+/*DISEÑOS ESPECIALES*/
+.compressed-list li {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(49, 118, 224, 0.5);
+    text-align: center;
+    padding-bottom: 15px;
+}
+.compressed-list  p {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
 /*HEADER*/
 
 header{
@@ -11,14 +33,15 @@ header{
     position: absolute;
     top: 0;
     right: 0;
-    width: calc(100% - 300px);
+    width: calc(100% - 270px);
 }
 .profile-photo {
     position: absolute;
     width: 220px;
+    height: 220px;
     margin: 0px;
     top: 10px;
-    left: -300px;
+    left: -285px;
     margin-left: calc(150px - 110px);
     z-index: 20;
     
@@ -32,32 +55,42 @@ header{
 
 }
 .name {
-    width: 60%;
-    text-align: right;
+    width: 100%;
     color:var(--black);
 }
 .profession {
-    text-align: right;
-    width: 42%;
     color:var(--black);
 
 }
 .description {
-    color: var(--black);;
-    width: 50%;
+    color: var(--black);
+    width: 80%;
     margin: 0 auto;
 }
-/**/
-/**/
-/**/
-/**/
+
+.description:before {
+    content:"Sobre mí";
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 1px solid var(--soft-blue);
+}
+
+/*MAIN*/
+main {
+    margin-top: 350px;
+}
+/*IDIOMAS*/
+.idiomas__list span {
+    width: 100%;
+}
 /*FOOTER*/
 footer {
     position: relative;
     z-index: 0;
-    width: 300px;
+    width: 270px;
     margin: 0;
-    padding-top: 200px;
+    padding: 200px 0px 10px 0px;
     flex-direction: column;
 }
 .subtitle.footer-subtitle {
@@ -124,5 +157,10 @@ footer {
     content: "Platzi"
 }
 .footer__leyenda {
-    width: 100%
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 420px;
+    justify-content:flex-end;
+    padding: 0;
 }
