@@ -246,6 +246,11 @@ footer {
 .leyenda__descripcion {
     font-size: 0.8em;
 }
+.leyenda__descripcion a {
+    color: white;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
 .leyenda__username {
     margin-top: 15px;
     font-size: 1.2em;
