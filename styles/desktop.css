@@ -145,9 +145,13 @@ footer {
     display: none;
 }
 /*::After de cada una de las redes*/
+.redes-portafolio__list .github {
+    position: relative;
+    top: 0;
+    left: 0;
+}
 .redes-portafolio__list .github::after {
     content: "Github";
-    top: 618px;
 }
 .redes-portafolio__list .linkedin::after {
     content: "Linkedin"
