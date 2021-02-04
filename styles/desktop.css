@@ -141,7 +141,7 @@ footer {
     height: 100%;
 }
 .redes-portafolio__list span{
-    visibility: hidden;
+    display: none;
 }
 /*::After de cada una de las redes*/
 .redes-portafolio__list .github::after {
