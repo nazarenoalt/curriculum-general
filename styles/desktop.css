@@ -123,6 +123,7 @@ footer {
     content: "";
     display: inline-block;
     color: white;
+    width: 100px;
     height: 30px;
     line-height: 30px;
     margin-left: 10px;
@@ -145,7 +146,8 @@ footer {
 }
 /*::After de cada una de las redes*/
 .redes-portafolio__list .github::after {
-    content: "Github"
+    content: "Github";
+    top: 618px;
 }
 .redes-portafolio__list .linkedin::after {
     content: "Linkedin"
