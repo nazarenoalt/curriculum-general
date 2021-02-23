@@ -151,22 +151,23 @@ footer {
     left: 0;
 }
 .redes-portafolio__list .github::after {
-    content: "Github";
+    content: "@nazarenoalt";
 }
 .redes-portafolio__list .linkedin::after {
-    content: "Linkedin"
+    content: "@nazarenoalt"
 }
 .redes-portafolio__list .instagram::after {
-    content: "Instagram"
+    content: "@nazarenoalt"
 }
 .redes-portafolio__list .platzi::after {
-    content: "Platzi"
+    content: "@nazarenoalt"
 }
 .footer__leyenda {
     display: flex;
     flex-direction: column;
     width: 95%;
     height: 420px;
+    margin-top: 140px;
     justify-content:flex-end;
     padding: 0;
 }

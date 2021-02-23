@@ -144,6 +144,9 @@ header {
     font-weight: 600;
     text-align: center;
 }
+.profession span {
+    font-weight: normal;
+}
 .description {
     margin-bottom: 30px;
     padding: 0px 10px;
