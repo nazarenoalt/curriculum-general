@@ -168,8 +168,9 @@ header {
     display: flex;
 }
 .idiomas__list li {
-    width: 60%;
-    height: 40px;
+    min-width: 300px;
+    width: 70%;
+    height: 50px;
     margin: 0 auto;
     text-align: center;
     transition: height .2s;
