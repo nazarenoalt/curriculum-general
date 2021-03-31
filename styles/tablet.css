@@ -7,13 +7,13 @@
     width: 30%;
 }
 .name {
-    font-size: 2.5em;
+    font-size: 2.5rem;
 }
 .profession {
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 .description {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     padding: 20px 35px;
 }
 #subtitle__habs-blandas {
@@ -47,10 +47,10 @@ main {
 
 /*DATOS PERSONALES*/
 .datos-personales__list p {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 .datos-personales__list span {
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 /*FOOTER*/

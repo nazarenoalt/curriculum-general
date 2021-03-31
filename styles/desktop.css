@@ -1,3 +1,7 @@
+* {
+    
+}
+
 /*BODY*/
 .container {
     position: relative;
@@ -81,7 +85,7 @@ header{
 .description:before {
     content:"Sobre mí";
     display: block;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: bold;
     border-bottom: 1px solid var(--soft-blue);
     padding-bottom: 5px;
@@ -148,7 +152,7 @@ footer {
     height: 30px;
     line-height: 30px;
     margin-left: 10px;
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 .redes-portafolio__list li {
     height: 30px;
