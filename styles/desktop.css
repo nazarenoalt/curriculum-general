@@ -222,7 +222,7 @@ footer {
         padding-right: 2%;
     }
     .footer__leyenda {
-        margin-top: 25rem;
+        margin-top: 30rem;
     }
     .subtitle {
         margin-bottom: 1.3rem;
@@ -232,8 +232,5 @@ footer {
 @media screen and (min-width: 1600px) {
     main{
         padding-right: 2%;
-    }
-    .footer__leyenda {
-        margin-top: 25rem;
     }
 }
