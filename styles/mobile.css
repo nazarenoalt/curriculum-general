@@ -74,7 +74,7 @@ a:visited {
     top: -1000px;
 }
 /*Listas comprimidas*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 999px) {
     .compressed-list li {
         width: 80%;
         height: 40px;
